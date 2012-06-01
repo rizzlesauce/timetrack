@@ -1,0 +1,30 @@
+/**
+ * timetrack.css
+ * Created 30 May 2012 by Ross Adamson
+ * Copyright 2012 Ross Adamson. All rights reserverd.
+ */
+
+.log {
+    padding: 2px;
+    color: green;
+}
+
+.log.error {
+    color: red;    
+}
+
+.log:nth-child(3n - 1) {
+    background-color: rgb(240, 240, 240);
+}
+
+.log:nth-child(3n) {
+    background-color: rgb(230, 230, 230);
+}
+
+.totalTimeDiv.notIncluded {
+    color: rgb(200, 200, 200);
+}
+
+.tagHeader {
+    text-transform: uppercase;
+}
