@@ -1,0 +1,3 @@
+[submodule "node_modules/journey"]
+	path = node_modules/journey
+	url = git://github.com/cloudhead/journey.git
